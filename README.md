@@ -96,6 +96,9 @@ Prepares a MySQL server for the project.
 ### setup_mysql_test.sql
 Prepares a test MySQL server for the project.
 
+### models/engine/db_storage.py
+In DBStorage mode, everytime the backend is initialized, AirBnB creates an instance of DBStorage called 'storage'. The 'storage' object is loaded/reloaded from the MySQL database specified in HBNB_MYSQL_DB, using HBNB_MYQL_USER for user, HBNB_MYQL_PWD for password, HBNB_MYQL_HOST for the host. As class instances are modified, created, or deleted, the 'storage' object will register changes in the matching MySQL database. SQLAlchemy will be used to connect and query.
+
 ## Usage
 This project uses a cmd module from python. This module helps with running our program by simplifying the commands it takes. To run the program simply type python3 console.py:<br>
 ![image](https://github.com/user-attachments/assets/47ede6ac-24cc-4419-ad78-34b34ddb3d4e)<br>
