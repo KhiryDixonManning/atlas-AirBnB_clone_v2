@@ -1,5 +1,6 @@
 # Atlas AirBnB Clone Project
-This is the second version of an AirBnB Clone project where the console can now be used to can be used to store objects in and retrieve objects using either a MySQL database, or a JSON file.
+This is the second version of an AirBnB Clone project where the console can now be used to store objects and/or retrieve objects using either a MySQL database, or a JSON file.
+
 1. [Files and Descriptions](#Files-and-Descriptions)
 2. [Usage](#Usage)
 3. [Flowchart](#Flowchart)
